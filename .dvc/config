@@ -1,4 +1,5 @@
 [core]
     remote = fake_review_remote
+    autostage = true
 ['remote "fake_review_remote"']
     url = /home/yogesh/Dvc Store
