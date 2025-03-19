@@ -1,0 +1,5 @@
+run_key,File,Model,Accuracy,Precision,Recall,F1
+preprocessed_lemmatization_features.csv_LogisticRegression,/home/yogesh/mlops/Mlop Projects/Fake Review Detection/data/Feature-engineered/preprocessed_lemmatization_features.csv,LogisticRegression,0.731173488314579,0.7312226945886092,0.731173488314579,0.7311744337355086
+preprocessed_lemmatization_features.csv_RandomForest,/home/yogesh/mlops/Mlop Projects/Fake Review Detection/data/Feature-engineered/preprocessed_lemmatization_features.csv,RandomForest,0.8237912699394089,0.8239961686335695,0.8237912699394089,0.823780007261268
+preprocessed_lemmatization_features.csv_SVC,/home/yogesh/mlops/Mlop Projects/Fake Review Detection/data/Feature-engineered/preprocessed_lemmatization_features.csv,SVC,0.8077160875479165,0.8080281023810992,0.8077160875479165,0.8076911826930807
+preprocessed_lemmatization_features.csv_XGBoost,/home/yogesh/mlops/Mlop Projects/Fake Review Detection/data/Feature-engineered/preprocessed_lemmatization_features.csv,XGBoost,0.8305923086435019,0.8307292002115975,0.8305923086435019,0.8305873869338551
