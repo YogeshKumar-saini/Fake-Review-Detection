@@ -1,0 +1,4 @@
+[core]
+    remote = fake_review_remote
+['remote "fake_review_remote"']
+    url = /home/yogesh/Dvc Store
