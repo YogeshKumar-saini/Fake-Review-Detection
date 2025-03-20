@@ -1,0 +1,10 @@
+stages:
+  preprocess:
+    cmd: python src/data/preprocessing.py
+    deps:
+      - src/data/preprocessing.py
+      - data/raw/fakeReviewData.csv
+      - params.yaml
+    outs:
+      - data/processed/exploration.csv
+

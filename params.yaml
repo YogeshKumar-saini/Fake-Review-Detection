@@ -1,0 +1,14 @@
+data_paths:
+  raw: "data/raw/fakeReviewData.csv"
+  processed: "data/processed/exploration.csv"
+
+preprocessing:
+  drop_duplicates: true
+  drop_na: true
+  rating_dtype: "int8"
+
+model:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  model_path: "src/models/trained_model.pth"
