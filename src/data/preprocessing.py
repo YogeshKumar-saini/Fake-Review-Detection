@@ -3,15 +3,22 @@ import os
 import yaml
 import logging
 
-# Setup logging
+# Ensure logs directory exists
+os.makedirs("logs", exist_ok=True)
+
+# Logging setup
 logging.basicConfig(
-    format="%(asctime)s - %(levelname)s - %(message)s",
     level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("logs/preprocessing.log"),  # Log file
-        logging.StreamHandler()  # Console output
+        logging.StreamHandler()  # Print logs to console
     ]
 )
+
+logging.info("Logging initialized successfully")
+
+logging.info("Starting data preprocessing...")
 
 # Load parameters from params.yaml
 with open("params.yaml", "r") as file:

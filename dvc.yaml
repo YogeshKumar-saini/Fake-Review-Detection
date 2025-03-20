@@ -8,3 +8,10 @@ stages:
     outs:
       - data/processed/exploration.csv
 
+  preprocess2:
+    cmd: python src/data/preprocessing2.py
+    deps:
+      - src/data/preprocessing2.py
+      - data/processed/exploration.csv  # Output of first stage
+    outs:
+      - data/processed/final_data.csv
