@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/data/preprocessing.py
+    deps:
+    - path: data/raw/fakeReviewData.csv
+      hash: md5
+      md5: 177a386fab45e3f85d140728b2387967
+      size: 15324616
+    - path: params.yaml
+      hash: md5
+      md5: b1b6d3199d0d877a30dda9c7fd05488a
+      size: 280
+    - path: src/data/preprocessing.py
+      hash: md5
+      md5: bf85440ab47a8300d76d185c53c357fd
+      size: 2362
+    outs:
+    - path: data/processed/exploration.csv
+      hash: md5
+      md5: c18f7158c85d22d43047095a40ae9ab4
+      size: 15241240
