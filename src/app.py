@@ -45,7 +45,7 @@ from wordcloud import WordCloud
 def load_model_vectorizer():
     base_dir = os.path.dirname(__file__)
     model_path = os.path.join(base_dir, "model.pkl")
-    vectorizer_path = os.path.join(base_dir, "/home/yogesh/mlops/Mlop Projects/Fake Review Detection/models/tfidf_vectorizer.pkl")
+    vectorizer_path = os.path.join(base_dir, "/home/yogesh/mlops/Mlop Projects/Fake Review Detection/src/models/tfidf_vectorizer.pkl")
     if not os.path.exists(model_path) or not os.path.exists(vectorizer_path):
         st.error("Model files not found. Please ensure 'model.pkl' and 'tfidf_vectorizer.pkl' exist in the app directory.")
         return None, None

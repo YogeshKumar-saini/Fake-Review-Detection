@@ -1,0 +1,18 @@
+# Ignore DVC cache and dataset folders
+**/.dvc/
+**/.dvc/cache/
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
+
+# Ignore other unneeded files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.ipynb_checkpoints/
