@@ -99,8 +99,8 @@ Deploy the Streamlit app on an AWS EC2 instance:
 docker run -d -p 80:8501 yogesh1090/fake-review-app:latest
 ```
 
+Access the app at [http://13.53.99.130:8501/](http://13.53.99.130:8501/).
 
-Access via: `http://13.53.99.130:8501/`
 
 Ensure your EC2 security group allows inbound traffic on port 80.
 
